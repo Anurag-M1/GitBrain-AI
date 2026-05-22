@@ -311,3 +311,175 @@ MIT License
 # Vision
 
 GitBrain AI aims to become the operating system for autonomous software understanding — enabling AI agents to deeply reason about any codebase, infrastructure stack, and engineering architecture at enterprise scale.
+
+
+---
+
+# Autonomous Project Execution Engine
+
+GitBrain AI not only analyzes repositories but can also autonomously run, test, monitor, and interact with projects using multiple coordinated AI agents inside isolated container environments.
+
+## Multi-Agent Runtime Execution
+
+After repository analysis, specialized runtime agents collaborate to:
+
+- Install dependencies automatically
+- Detect runtime environments
+- Configure services
+- Start applications
+- Execute workflows
+- Monitor logs
+- Debug runtime failures
+- Validate APIs
+- Simulate user interactions
+- Run integration testing
+
+---
+
+## Runtime Agent Architecture
+
+| Agent | Responsibility |
+|---|---|
+| Environment Agent | Setup runtime dependencies |
+| Build Agent | Build and compile project |
+| Execution Agent | Launch application services |
+| Monitoring Agent | Observe logs and runtime behavior |
+| API Testing Agent | Validate APIs and endpoints |
+| Debug Agent | Detect and explain runtime failures |
+| Workflow Agent | Simulate real application workflows |
+| Browser Agent | Interact with frontend using Playwright |
+| Optimization Agent | Detect bottlenecks and inefficiencies |
+
+---
+
+## Isolated Runtime Containers
+
+Every repository executes inside isolated environments for security and reproducibility.
+
+### Isolation Features
+
+- Docker-based execution
+- Kubernetes sandboxing
+- Resource quotas
+- CPU/memory limits
+- Ephemeral containers
+- Network isolation
+- Secret masking
+- Read-only execution modes
+
+---
+
+## Autonomous Runtime Workflow
+
+```text
+GitHub Repository
+        │
+        ▼
+
+Repository Clone
+        │
+        ▼
+
+Container Initialization
+        │
+        ▼
+
+Dependency Installation
+        │
+        ▼
+
+AI Agent Runtime Orchestration
+        │
+        ▼
+
+Project Execution & Monitoring
+        │
+        ▼
+
+Workflow Simulation & Testing
+        │
+        ▼
+
+Runtime Analysis & Optimization
+        │
+        ▼
+
+Documentation + AI Insights
+```
+
+---
+
+## Runtime Capabilities
+
+GitBrain AI can autonomously:
+
+- Run backend servers
+- Start frontend applications
+- Execute Docker Compose stacks
+- Launch microservices
+- Run test suites
+- Execute CI/CD workflows
+- Simulate browser interactions
+- Monitor logs in real time
+- Detect crashes and failures
+- Explain runtime issues using AI
+
+---
+
+## Supported Runtime Environments
+
+- Python
+- Node.js
+- Java
+- Go
+- Rust
+- PHP
+- Ruby
+- Docker Compose
+- Kubernetes
+- Microservices
+- AI Agent Frameworks
+
+---
+
+## Browser Automation & Workflow Testing
+
+GitBrain AI integrates browser automation agents using:
+
+- Playwright
+- Selenium
+- Headless Chromium
+
+Capabilities include:
+
+- Automated UI testing
+- Workflow simulation
+- Form interaction
+- Authentication testing
+- Dashboard navigation
+- API validation
+- End-to-end testing
+
+---
+
+## Example Runtime Queries
+
+```bash
+Run the repository and explain startup flow
+```
+
+```bash
+Start all microservices and map communication
+```
+
+```bash
+Detect runtime failures and explain errors
+```
+
+```bash
+Run frontend workflow using browser agents
+```
+
+```bash
+Execute integration tests and summarize results
+```
